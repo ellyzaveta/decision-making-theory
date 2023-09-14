@@ -1,6 +1,6 @@
-package com.decisionmakingtheory.labs.utils;
+package com.decisionmakingtheory.labs.lab1.utils;
 
-import com.decisionmakingtheory.labs.models.Alternative;
+import com.decisionmakingtheory.labs.lab1.models.Alternative;
 
 import java.util.ArrayList;
 import java.util.List;

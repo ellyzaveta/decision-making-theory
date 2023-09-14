@@ -1,6 +1,6 @@
-package com.decisionmakingtheory.labs.algorithms.comparators;
+package com.decisionmakingtheory.labs.lab1.algorithms.comparators;
 
-import com.decisionmakingtheory.labs.models.Alternative;
+import com.decisionmakingtheory.labs.lab1.models.Alternative;
 
 import java.util.Comparator;
 

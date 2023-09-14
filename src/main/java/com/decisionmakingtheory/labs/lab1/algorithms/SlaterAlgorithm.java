@@ -1,6 +1,6 @@
-package com.decisionmakingtheory.labs.algorithms;
+package com.decisionmakingtheory.labs.lab1.algorithms;
 
-import com.decisionmakingtheory.labs.algorithms.comparators.SlaterComparator;
+import com.decisionmakingtheory.labs.lab1.algorithms.comparators.SlaterComparator;
 
 import java.util.List;
 

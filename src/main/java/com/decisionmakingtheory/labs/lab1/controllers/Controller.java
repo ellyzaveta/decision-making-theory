@@ -1,9 +1,9 @@
-package com.decisionmakingtheory.labs.controllers;
+package com.decisionmakingtheory.labs.lab1.controllers;
 
-import com.decisionmakingtheory.labs.algorithms.ParetoAlgorithm;
-import com.decisionmakingtheory.labs.algorithms.SlaterAlgorithm;
-import com.decisionmakingtheory.labs.models.Alternative;
-import com.decisionmakingtheory.labs.models.Solution;
+import com.decisionmakingtheory.labs.lab1.algorithms.ParetoAlgorithm;
+import com.decisionmakingtheory.labs.lab1.algorithms.SlaterAlgorithm;
+import com.decisionmakingtheory.labs.lab1.models.Alternative;
+import com.decisionmakingtheory.labs.lab1.models.Solution;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.ArrayList;

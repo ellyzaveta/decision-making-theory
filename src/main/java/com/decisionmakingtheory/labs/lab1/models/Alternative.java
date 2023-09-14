@@ -1,4 +1,4 @@
-package com.decisionmakingtheory.labs.models;
+package com.decisionmakingtheory.labs.lab1.models;
 
 public class Alternative {
     private int q1;

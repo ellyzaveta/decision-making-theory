@@ -1,8 +1,8 @@
-package com.decisionmakingtheory.labs.algorithms;
+package com.decisionmakingtheory.labs.lab1.algorithms;
 
-import com.decisionmakingtheory.labs.models.Alternative;
-import com.decisionmakingtheory.labs.models.Solution;
-import com.decisionmakingtheory.labs.utils.ListConverter;
+import com.decisionmakingtheory.labs.lab1.models.Alternative;
+import com.decisionmakingtheory.labs.lab1.models.Solution;
+import com.decisionmakingtheory.labs.lab1.utils.ListConverter;
 
 import java.util.Comparator;
 import java.util.List;
