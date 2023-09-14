@@ -31,24 +31,6 @@ public class ListConverter {
         return alternatives;
     }
 
-    public static List<Integer> getListOfIntegers(String str) {
-
-        List<Integer> integerList = new ArrayList<>();
-
-        String[] splitValues = str.split(", ");
-
-        for (String value : splitValues) {
-            try {
-                Integer intValue = Integer.parseInt(value);
-                integerList.add(intValue);
-            } catch (NumberFormatException e) {
-                System.err.println("Invalid integer value: " + value);
-            }
-        }
-
-        return integerList;
-    }
-
     private static boolean isSingleDigitNumber(String number) {
         return number.length() == 1;
     }

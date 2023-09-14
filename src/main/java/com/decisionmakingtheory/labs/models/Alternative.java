@@ -34,7 +34,7 @@ public class Alternative {
     }
 
     public void setDominated(String dominated) {
-        if(this.dominated == null) {
+        if (this.dominated == null) {
             this.dominated = dominated;
         }
     }

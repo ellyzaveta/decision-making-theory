@@ -18,11 +18,11 @@ public class Solver {
     }
 
     public Solution<List<Alternative>, List<Alternative>> getSolution() {
-        build();
+        algorithm();
         return new Solution<>(getAlternatives(), getOptimalSolutions());
     }
 
-    private void build() {
+    private void algorithm() {
         for (int i = 0; i < alternatives.size(); i++) {
             for (int j = 0; j < alternatives.size(); j++) {
                 if (j <= i) {

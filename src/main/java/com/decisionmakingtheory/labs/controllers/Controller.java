@@ -19,15 +19,15 @@ public class Controller {
     private final List<Solution<List<Alternative>, List<Alternative>>> paretoSolutions = new ArrayList<>();
     private final List<Solution<List<Alternative>, List<Alternative>>> slaterSolutions = new ArrayList<>();
 
-    private final List<Integer> series1 = List.of(39, 63, 35, 4, 73, 6, 64, 23, 51, 49, 51, 30, 39, 4, 65, 86, 2, 25, 79, 91);
-    private final List<Integer> series2 = List.of(47, 7, 84, 31, 61, 19, 31, 53, 28, 27, 94, 19, 43, 81, 23, 68, 87, 39, 43, 38);
-    private final List<Integer> series3 = List.of(88, 94, 20, 80, 98, 86, 18, 52, 63, 98, 95, 10, 5, 79, 42, 66, 98, 25, 72, 78);
+    private final List<Integer> row1 = List.of(39, 63, 35, 4, 73, 6, 64, 23, 51, 49, 51, 30, 39, 4, 65, 86, 2, 25, 79, 91);
+    private final List<Integer> row2 = List.of(47, 7, 84, 31, 61, 19, 31, 53, 28, 27, 94, 19, 43, 81, 23, 68, 87, 39, 43, 38);
+    private final List<Integer> row3 = List.of(88, 94, 20, 80, 98, 86, 18, 52, 63, 98, 95, 10, 5, 79, 42, 66, 98, 25, 72, 78);
 
-    List<List<Integer>> series = List.of(
-            series1,
-            series2,
-            series3,
-            Stream.of(series1, series2, series3)
+    List<List<Integer>> rows = List.of(
+            row1,
+            row2,
+            row3,
+            Stream.of(row1, row2, row3)
                     .flatMap(Collection::stream)
                     .collect(Collectors.toList())
     );
@@ -37,7 +37,7 @@ public class Controller {
     }
 
     private void calculate() {
-        for (List<Integer> value : series) {
+        for (List<Integer> value : rows) {
             addToResult(value);
         }
     }
